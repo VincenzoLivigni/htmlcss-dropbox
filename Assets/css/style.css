@@ -23,15 +23,37 @@ a {
     display: inline-block;
 }
 
+input {
+    margin: 2.5rem 0
+}
+
+span {
+    margin-right: 2rem
+}
+
 /* headings utils */
 h1 {
     font-size: 4rem;
     padding: 3rem 0;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
+h5 {
+    text-align: center;
+    padding: 0.75rem 0.25rem;
+}
+
 /* utils */
 .container-big {
     width: 70%;
+    margin: auto;
+}
+
+.container {
+    width: 60%;
     margin: auto;
 }
 
@@ -43,6 +65,10 @@ h1 {
     justify-content: space-between;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 /* header utils */
 .navbar-left,
 .navbar-right {
@@ -50,11 +76,16 @@ h1 {
     padding: 1rem;
 }
 
-.btn-blue {
+.btn-blue,
+.btn-card {
     background-color: var(--drop-var-primary);
     color: var(--drop-var-white);
     padding: 0.5rem;
     border: none;
+}
+
+.btn-card {
+    padding: 0.5rem 1.8rem
 }
 
 /* main utils */
@@ -66,19 +97,117 @@ h1 {
     width: 35%;
 }
 
-.jumbo-big {width: 65%;
-            position: relative;}
+.jumbo-big {
+    width: 65%;
+    position: relative;
+}
 
-.jumbo-big img {width: 100%;
-                position: absolute;}
+.jumbo-big img {
+    width: 100%;
+    position: absolute;
+}
 
-.jumbo-small .btn-blue {margin: 2rem 0;
-                        padding: 0.5rem 1rem;
-                        font-size: 1rem;}
+.jumbo-small .btn-blue {
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
 
-.download-icon {font-size: 2rem;
-                margin-top: 3.5rem;
-                margin-bottom: 2rem;}
+.download-icon {
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+/*section cards utilies */
+.cards {
+    margin: 8rem 0 3rem;
+}
+
+.card-header {
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray
+}
+
+.card-content {
+    padding: 2rem;
+}
+
+.abbonamenti {
+    gap: 5%
+}
+
+.card {
+    width: calc(100% / 3);
+    border: 1px lightgrey solid;
+}
+
+.prezzo {
+    margin: 1rem 0
+}
+
+.costo {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.info-offerta {
+    margin: 3rem 0
+}
+
+.link-blu {
+    color: blue;
+    text-decoration: underline;
+}
+
+.abbonamenti span {
+    display: block;
+    margin: 2rem 0;
+    font-size: 0.9rem;
+}
+
+.separatore {
+    width: 30%;
+    border: 1px solid lightgrey;
+}
+
+.punti-salienti {
+    margin-top: 2rem
+}
+
+.blue {
+    color: var(--drop-var-primary)
+}
+
+/* section office */
+
+.office-team {
+    width: 100%;
+    border: 1px lightgrey solid;
+    margin-bottom: 2rem;
+}
+
+.office-left {
+    width: 70%;
+}
+
+.office-left strong {
+    font-size: 0.7rem;
+    display: block;
+    margin: 1rem 0 2rem;
+}
+
+.office-left span {
+    font-size: 0.7rem;
+}
+
+
+
+.office-right {
+    width: 30%;
+}
+
 
 /* header */
 header {
